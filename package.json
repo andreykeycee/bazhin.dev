@@ -1,0 +1,28 @@
+{
+  "name": "bazhin.dev",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.11.1",
+    "@nuxt/typescript-runtime": "^2.0.1",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "core-js": "^3.8.2",
+    "fibers": "^5.0.0",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.14.12",
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.12",
+    "@nuxt/typescript-build": "^2.0.4"
+  }
+}
