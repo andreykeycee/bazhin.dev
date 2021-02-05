@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  node:
+    image: node:13-stretch
+    user: node
+    volumes:
+      - .:/home/node/bike-fm
+    working_dir: /home/node/bike-fm
+    command: ['bash', '-c', 'true; yarn install; yarn build; yarn start']
+    restart: always
+    expose:
+      - 3000
